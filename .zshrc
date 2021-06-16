@@ -105,8 +105,6 @@ source $ZSH/oh-my-zsh.sh
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
-export PATH=$HOME/.ndenv/bin:/usr/local/bin:/usr/local/sbin:$PATH
-eval "$(ndenv init -)"
 
 ## プライベートgemをインストールするためのgithubトークン
 export BUNDLE_GITHUB__COM=drumehiron:cf854e0bd4123577b8ce7237ea9219bdfa0c93d0
@@ -275,7 +273,7 @@ esac
 # vim:set ft=zsh:
 export PYENV_ROOT="${HOME}/.pyenv"
 export PATH="${PYENV_ROOT}/bin:$PATH"
-eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
 
 export PIPENV_VENV_IN_PROJECT=1
 
