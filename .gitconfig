@@ -1,0 +1,16 @@
+[alias]
+        st = status
+        br = branch -vv
+        df = diff
+        co = checkout
+        cm = commit
+        gr = grep
+[merge]
+        ff = false
+[pull]
+        ff = only
+[user]
+	name = Hiroshi Umeki
+	email = drumehiron@gmail.com
+[pager]
+	branch = false
