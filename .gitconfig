@@ -14,3 +14,5 @@
 	email = drumehiron@gmail.com
 [pager]
 	branch = false
+[init]
+	defaultBranch = main

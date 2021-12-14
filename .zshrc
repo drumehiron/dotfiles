@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -277,3 +277,6 @@ export PIPENV_VENV_IN_PROJECT=1
 
 export LC_ALL=ja_JP.UTF-8
 export LANG=ja_JP.UTF-8
+export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"
+
+alias chrome="open -a 'Google Chrome'"
